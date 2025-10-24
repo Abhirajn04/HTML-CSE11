@@ -3,39 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Table </title>
 </head>
 <body>
     <table>
-<caption>Personal Information</caption>
-<thead><!--This is semantic element-->
-<tr>
-    <th>Name </th>
-    <th>Surname</th>
-    <th>Age</th>
-</tr>
-<tr>
-<td>Chris</td>
-<td>Evans</td>
-<td>44</td>
-</tr>
-
-<tr>
-<td>Robert</td>
-<td>Downey</td>
-<td>41</td>
-</tr>
-</thead>
-<tfoot>
-<tr><td>This is Table Footer</td></tr>
-</tfoot>
+        <caption>Personal Information</caption>
+        <thead>
+    <tr>
+        <th>Name </th>
+        <th>Surname</th>
+        <th>Age</th>
+    </tr></thead>  
+    <tbody>
+    <tr>
+        <td>Abhiraj</td>
+        <td>Niranjan</td>
+        <td>18</td>
+    </tr></tbody> 
+    <tfoot>
+        <td>This is table footer </footer></td>
+    </tfoot>
     </table>
     <table>
-        <tr><th colspan="2">Name</th></tr>
-
+        <tr><th colspan="2">Name</th>
+        <th>Age</th></tr>
+        <tr>
+            <td>Abhiraj</td>
+            <td>Niranjan</td>
+            <td>18</td>
+        </tr>
+       
 
 
     </table>
+
+    <table border="1" cellspacing="10" cellpadding="10"
+    align="center">
+        
+        <tr><th rowspan="3">
+            October
+        </th>
+        <td>1</td>
+        <td>2</td></tr>
+        <tr>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+    </table>
+    <table>
+        <th>2022</th>
+        <tr><td colspan="3">
+            
+        </tr>
+    </table>
+    <hr>
+    <table border="1" cellpadding="5" cellspacing="10" align="center">
+        <tr>
+            <td>Main Table Row1 Column1</td>
+            <td><table border="1" cellpadding="5">
+                <caption>Main Table Column 2</caption>
+                <tr>
+                    <td>
+                        Inner Table Row1 Colum1
+                    </td>
+                     <td>
+                        Inner Table Row1 Colum2
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        Inner Table Row2 Colum1
+                    </td>
+                     <td>
+                        Inner Table Row2 Colum2
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        Inner Table Row3 Colum1
+                    </td>
+                     <td>
+                        Inner Table Row3 Colum2
+                    </td>
+                </tr>
+
+            </table></td>
+        </tr>
+    </table>
+
     
 </body>
 </html>
+
